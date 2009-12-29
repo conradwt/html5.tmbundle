@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script${1:${2: src="/javascripts/application.js"}${3: type="text/javascript"}${4: charset="utf-8"}${5: async}${6: defer}}&gt;&lt;/script&gt;$0</string>
+	<string>&lt;script ${1:${2:src="${3:/${4:javascripts}/${5:application.js}}"} ${6:type="${7:text/javascript}"} ${8:charset="${9:utf-8}"} ${10:async="async"} ${11:defer="defer"}}&gt;&lt;/script&gt;$0</string>
 	<key>name</key>
-	<string>&lt;script&gt;</string>
+	<string>&lt;scriptsrc&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>script</string>
+	<string>scriptsrc</string>
 	<key>uuid</key>
 	<string>6592050A-A087-11D9-A5A2-000D93C8BE28</string>
 </dict>

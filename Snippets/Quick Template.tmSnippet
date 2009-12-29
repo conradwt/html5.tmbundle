@@ -9,13 +9,13 @@ if [[ $TM_LANG ]]
   then echo -n " lang=\"${TM_LANG}\""
 fi
 `}&gt;
-&lt;head&gt;${2:
-	&lt;meta charset="utf-8"${TM_POLYGLOT}&gt;}
-	&lt;title&gt;${4:Page Title}&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-	$0
-&lt;/body&gt;
+	&lt;head&gt;${2:
+		&lt;meta charset="utf-8"${TM_POLYGLOT}&gt;}
+		&lt;title&gt;${4:Page Title}&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		$0
+	&lt;/body&gt;
 &lt;/html&gt;
 </string>
 	<key>name</key>
